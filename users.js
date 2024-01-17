@@ -948,7 +948,7 @@ console.log(listEmails);
 // Ny mail
 
 let newEmail = (user) => {
-    let email = `${user.name.first}.${user.name.last}@evilcorp.${user.nat.toLowerCase()}`;
+    let email = `${user.name.last}.${user.name.first}@evilcorp.${user.nat.toLowerCase()}`;
     return email;
 }
 
